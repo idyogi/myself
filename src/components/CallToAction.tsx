@@ -33,6 +33,7 @@ const CallToAction = () => {
             <Button 
               size="lg" 
               className="bg-white text-green-800 hover:bg-green-50 px-12 py-6 text-xl rounded-full shadow-lg transform hover:scale-105 transition-all duration-300 w-full md:w-auto"
+              onClick={() => window.open('https://up.myscalev.com/myself', '_blank')}
             >
               <Heart className="w-6 h-6 mr-3" />
               Oke, saya mau daftar kelasnya

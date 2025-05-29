@@ -38,6 +38,7 @@ const EventHero = () => {
                 <Button 
                   size="lg" 
                   className="bg-green-600 hover:bg-green-700 text-white px-12 py-4 text-lg rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
+                  onClick={() => window.open('https://up.myscalev.com/myself', '_blank')}
                 >
                   <Heart className="w-5 h-5 mr-2" />
                   Oke, saya mau daftar kelasnya
@@ -49,7 +50,7 @@ const EventHero = () => {
             <div className="flex justify-center lg:justify-end">
               <div className="max-w-md w-full">
                 <img 
-                  src="/lovable-uploads/f4c52adf-6de3-463a-8654-b5e19c062a3b.png"
+                  src="/lovable-uploads/846495ac-ec1a-46ce-9513-5921f26d0c3a.png"
                   alt="To: Myself with Love - Event Poster"
                   className="w-full h-auto rounded-2xl shadow-2xl"
                 />
