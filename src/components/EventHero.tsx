@@ -11,26 +11,50 @@ const EventHero = () => {
       </div>
       
       <div className="container mx-auto px-4 py-12 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
-          {/* Main Title */}
-          <div className="mb-8">
-            <h1 className="text-5xl md:text-7xl font-bold text-green-800 mb-4 leading-tight">
-              MYSELF I<br />
-              <span className="text-green-600">WITH LOVE</span>
-            </h1>
-            <p className="text-xl md:text-2xl text-green-700 font-medium italic">
-              "Kamu Gak Perlu Cantik untuk Bahagia"
-            </p>
-          </div>
+        <div className="max-w-6xl mx-auto">
+          {/* Main Content Grid */}
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
+            {/* Left Side - Text Content */}
+            <div className="text-center lg:text-left">
+              <h1 className="text-4xl md:text-6xl font-bold text-green-800 mb-4 leading-tight">
+                MYSELF I<br />
+                <span className="text-green-600">WITH LOVE</span>
+              </h1>
+              <p className="text-xl md:text-2xl text-green-700 font-medium italic mb-8">
+                "Kamu Gak Perlu Cantik untuk Bahagia"
+              </p>
+              
+              <div className="mb-8">
+                <p className="text-lg md:text-xl text-green-800 max-w-2xl leading-relaxed">
+                  💌 Yuk, jadi diri yang lebih berarti<br />
+                  Bukan versi paling glowing.<br />
+                  Bukan versi yang semua orang suka.<br />
+                  <span className="font-semibold">Tapi versi dirimu yang paling jujur dan paling utuh.</span>
+                </p>
+              </div>
 
-          {/* Subtitle */}
-          <div className="mb-12">
-            <p className="text-lg md:text-xl text-green-800 max-w-2xl mx-auto leading-relaxed">
-              💌 Yuk, jadi diri yang lebih berarti<br />
-              Bukan versi paling glowing.<br />
-              Bukan versi yang semua orang suka.<br />
-              <span className="font-semibold">Tapi versi dirimu yang paling jujur dan paling utuh.</span>
-            </p>
+              {/* CTA Button */}
+              <div className="mb-8">
+                <Button 
+                  size="lg" 
+                  className="bg-green-600 hover:bg-green-700 text-white px-12 py-4 text-lg rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
+                >
+                  <Heart className="w-5 h-5 mr-2" />
+                  Oke, saya mau daftar kelasnya
+                </Button>
+              </div>
+            </div>
+
+            {/* Right Side - Poster Image */}
+            <div className="flex justify-center lg:justify-end">
+              <div className="max-w-md w-full">
+                <img 
+                  src="/lovable-uploads/f4c52adf-6de3-463a-8654-b5e19c062a3b.png"
+                  alt="To: Myself with Love - Event Poster"
+                  className="w-full h-auto rounded-2xl shadow-2xl"
+                />
+              </div>
+            </div>
           </div>
 
           {/* Event Info Cards */}
@@ -50,17 +74,6 @@ const EventHero = () => {
               <h3 className="font-semibold text-green-800 mb-2">Platform</h3>
               <p className="text-green-700">Full Online via Zoom</p>
             </div>
-          </div>
-
-          {/* CTA Button */}
-          <div className="mb-8">
-            <Button 
-              size="lg" 
-              className="bg-green-600 hover:bg-green-700 text-white px-12 py-4 text-lg rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
-            >
-              <Heart className="w-5 h-5 mr-2" />
-              Oke, saya mau daftar kelasnya
-            </Button>
           </div>
 
           {/* Price */}
