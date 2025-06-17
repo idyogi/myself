@@ -81,7 +81,7 @@ const EventHero = () => {
           <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 max-w-md mx-auto shadow-xl">
             <div className="text-center">
               <p className="text-green-700 text-lg mb-2">Harga Spesial</p>
-              <div className="text-4xl font-bold text-green-800 mb-2">Rp 29.000</div>
+              <div className="text-4xl font-bold text-green-800 mb-2">Rp 39.000</div>
               <p className="text-sm text-green-600">Termasuk rekaman kelas + bonus worksheet & template</p>
             </div>
           </div>

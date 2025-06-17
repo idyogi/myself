@@ -24,7 +24,7 @@ const CallToAction = () => {
           {/* Price Highlight */}
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-12 max-w-md mx-auto">
             <h3 className="text-2xl font-bold mb-4">Investasi untuk Dirimu</h3>
-            <div className="text-5xl font-bold mb-2">Rp 29.000</div>
+            <div className="text-5xl font-bold mb-2">Rp 39.000</div>
             <p className="text-green-200">Termasuk rekaman kelas + bonus worksheet & template</p>
           </div>
 
