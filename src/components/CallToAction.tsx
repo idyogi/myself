@@ -1,8 +1,12 @@
 
 import { Button } from '@/components/ui/button';
 import { Heart, Phone, MessageCircle } from 'lucide-react';
+import CountdownTimer from '@/components/CountdownTimer';
 
 const CallToAction = () => {
+  // Target date: 21 Juni 2025, 23:59 WIB
+  const priceIncreaseDate = new Date('2025-06-21T23:59:00+07:00');
+
   return (
     <section className="py-20 bg-gradient-to-br from-green-600 to-green-800 text-white">
       <div className="container mx-auto px-4">
@@ -19,6 +23,16 @@ const CallToAction = () => {
               Ini tentang pulang ke diri sendiri.<br />
               <span className="text-green-200">Dengan pelan-pelan, sabar, dan penuh cinta.</span>
             </p>
+          </div>
+
+          {/* Countdown Timer */}
+          <div className="mb-12">
+            <CountdownTimer 
+              targetDate={priceIncreaseDate}
+              currentPrice={39000}
+              newPrice={43000}
+              className="max-w-md mx-auto"
+            />
           </div>
 
           {/* Price Highlight */}
